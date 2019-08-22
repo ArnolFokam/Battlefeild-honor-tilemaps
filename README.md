@@ -7,6 +7,6 @@ This is a little demo to explore  different tilemaps created for the game Battle
 - open the terminal on the directory of the repository and enter  
 ```npm run install```  
 
-### How to run it
+### How to run
 - to run the demo, enter  
 ```npm run start```
