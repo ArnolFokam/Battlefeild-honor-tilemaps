@@ -1,0 +1,16 @@
+map1:
+
+ player-as previous
+ block -as previous
+ floor -as previous
+ border-use to adjust the floor layer ,no relationship with block ( similar to floor layer)
+
+
+map2:
+ 
+ player-as previous 
+ block -as previous
+ floor -as previous
+
+
+map3:
