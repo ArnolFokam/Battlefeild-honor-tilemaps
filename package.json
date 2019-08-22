@@ -1,0 +1,24 @@
+{
+  "name": "Battlefeild-honor-tilemaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnolFokam/Battlefeild-honor-tilemaps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnolFokam/Battlefeild-honor-tilemaps/issues"
+  },
+  "homepage": "https://github.com/ArnolFokam/Battlefeild-honor-tilemaps#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
