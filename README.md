@@ -1,5 +1,5 @@
 # Battlefeild-honor-tilemaps
-These is a little game to explore tilemaps created for the game Battlefield-honor\
+These is a little demo to explore  different tilemaps created for the game Battlefield-honor\
 -  clone the repository.
 
 You should install [nodeJS](https://nodejs.org/en/download/)
