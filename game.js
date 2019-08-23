@@ -27,7 +27,7 @@ var game = new Phaser.Game(config);
 
 function preload() {
     this.load.image("tiles", "./assets/tilemaps/battle-royale.png");
-    this.load.tilemapTiledJSON("map", "./assets/tilemaps/map1/battle-royale.json");
+    this.load.tilemapTiledJSON("map", "./assets/tilemaps/map2.json");
     this.load.image('player', "./assets/player.png");
 }
 
@@ -38,13 +38,13 @@ function create() {
 
     const tileset = this.map.addTilesetImage("battle-royale", "tiles");
     const floorLayer = this.map.createStaticLayer("floor", tileset, 0, 0);
-    this.herbeLayer = this.map.createStaticLayer("herbe", tileset, 0, 0);
+    //this.herbeLayer = this.map.createStaticLayer("herbe", tileset, 0, 0);
     this.blockLayer = this.map.createStaticLayer("block", tileset, 0, 0);
     //this.map["wallLayer"] = this.map.createStaticLayer("wall", tileset, 0, 0);
     this.blockLayer.setCollisionByProperty({
         collide: true
     });
-    this.herbeLayer.setAlpha(0.8).setDepth(2);
+    //this.herbeLayer.setAlpha(0.8).setDepth(2);
 
 
     this.cameras.main.setBounds(0, 0, this.map.widthInPixels, this.map.heightInPixels);
